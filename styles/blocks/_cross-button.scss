@@ -9,10 +9,9 @@
   background-color: var(--color-accent);
  }
 
-
  &::before,
  &::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 7px;
@@ -23,10 +22,10 @@
  }
 
  &::before {
-  rotate: 45%;
+  rotate: 45deg;
  }
 
- &::after{
-  rotate: -45%;
+ &::after {
+  rotate: -45deg;
  }
 }
